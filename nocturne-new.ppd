@@ -1,0 +1,29 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*Manufacturer: "nocturne"
+*Product: "nocturne"
+*ModelName: "nocturne"
+*NickName: "nocturne"
+*ShortNickName: "nocturne"
+*PCFileName: "NOCTURNE.PPD"
+*DefaultPageSize: Letter
+*PageSize Letter/Letter: "<</PageSize [612 792]>>setpagedevice"
+*DefaultPageRegion: Letter
+*PageRegion Letter/Letter: "<</PageSize [612 792]>>setpagedevice"
+*DefaultImageableArea: Letter
+*ImageableArea Letter: "0 0 612 792"
+*DefaultPaperDimension: Letter
+*PaperDimension Letter: "612 792"
+*DefaultResolution: 300dpi
+*Resolution 300dpi/300 dpi: "<</HWResolution [300 300]>>setpagedevice"
+*cupsFilter: "application/vnd.cups-postscript 0 foomatic-rip"
+*FoomaticRIPCommandLine: "gs -q -dSAFER -pNOSAFER=true -dNOPAUSE -dBATCH -sDEVICE=ppmraw -sOutputFile=- -"
+*OrderDependency: 10 PageSetup *PocTrigger
+*FoomaticRIPOption PocTrigger: enum PS Z
+*FoomaticRIPOptionSetting PocTrigger=On: "(%pipe%{write your bash commands here! remove the curly brackets first}) (w) file closefile"
+*DefaultPocTrigger: On
+*End
