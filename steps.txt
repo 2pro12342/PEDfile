@@ -1,4 +1,4 @@
-1. After editing, get the file on your Chromebook
+1. Download the ".ppd" file & replace the "{write your bash commands here! remove the curly brackets first}" with your command. 
 2. Go to Settings > Device > Print
 3. Expand "Other available printers" and press "add printer manually"
 4. Add a new printer with these parameters:
