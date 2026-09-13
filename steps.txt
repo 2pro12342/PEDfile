@@ -1,0 +1,11 @@
+1. After editing, get the file on your Chromebook
+2. Go to Settings > Device > Print
+3. Expand "Other available printers" and press "add printer manually"
+4. Add a new printer with these parameters:
+name: nocturne
+address: 127.1.1.1
+protocol: LPD
+queue: ipp/print
+5. Select the file you download & edited and click "Add"
+6. Open Chrome, navigate to any website
+7. Ctrl+P to print, change destination to "see more..." > nocturne and print, your arbitrary code will try to run. If it fails then it isn't allowed in the sandbox.
