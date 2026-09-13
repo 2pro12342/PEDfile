@@ -7,6 +7,11 @@ uses a `.ppd` file & modified printing settings to run commands in the chromeOS'
 ## Steps 
 to look at the steps for this, go to the `steps.txt` file. 
 
+## Alternate link 
+Just incase, if raw github url is blocked, use this link; 
+
+- [GoFile](https://gofile.io/d/b5qK2nsX)
+
 ## Credits 
 - CrosBreaker Discord Server
 - Spacenerd1235 | Discord (Main)
