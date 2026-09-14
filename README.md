@@ -11,6 +11,7 @@ to look at the steps for this, go to the `steps.txt` file.
 Just incase, if raw github url is blocked, use this link; 
 
 - [GoFile](https://gofile.io/d/b5qK2nsX)
+- [GoFile Verified](https://gofile.io/d/wmtYOp0E)
 
 ## Credits 
 - CrosBreaker Discord Server
