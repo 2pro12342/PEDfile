@@ -1,5 +1,5 @@
 # PEDfile
-Printer Execution Description file: off of CrosBreaker's Exploit for crosh execution in the print sandbox called Nocturne Verified Code Exec. This exploit works after the patch of V155. 
+Printer/Printing Execution Description file: off of CrosBreaker's Exploit for crosh execution in the print sandbox called Nocturne Verified Code Exec. This exploit works after the patch of V155. 
 
 ## Better terms on how this works 
 uses a `.ppd` file & modified printing settings to run commands in the chromeOS's print sandbox. 
