@@ -1,4 +1,4 @@
-1. Download the ".ppd" file & replace the "{write your bash commands here! remove the curly brackets first}" with your command. 
+1. Download the "nocturne-new.ppd" file & replace the "{write your bash commands here! remove the curly brackets first}" with your command. 
 2. Go to Settings > Device > Print
 3. Expand "Other available printers" and press "add printer manually"
 4. Add a new printer with these parameters:
@@ -6,6 +6,6 @@ name: nocturne
 address: 127.1.1.1
 protocol: LPD
 queue: ipp/print
-5. Select the file you download & edited and click "Add"
+5. Select the file you download & edited and click "Add". (If you get a warning/error, download "nocture-verified.ppd" file & edit)
 6. Open Chrome, navigate to any website
 7. Ctrl+P to print, change destination to "see more..." > nocturne and print, your arbitrary code will try to run. If it fails then it isn't allowed in the sandbox.
