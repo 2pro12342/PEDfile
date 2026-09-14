@@ -21,9 +21,9 @@
 *DefaultResolution: 300dpi
 *Resolution 300dpi/300 dpi: "<</HWResolution [300 300]>>setpagedevice"
 *cupsFilter: "application/vnd.cups-postscript 0 foomatic-rip"
-*FoomaticRIPCommandLine: "gs -q -dSAFER -dDELAYSAFER -dNOPAUSE -dBATCH -sDEVICE=ppmraw -sOutputFile=- -"
-*OrderDependency: 10 PageSetup *ACE
-*FoomaticRIPOption ACE: enum PS Z
+*FoomaticRIPCommandLine: "gs -q -dSAFER -pNOSAFER=true -dNOPAUSE -dBATCH -sDEVICE=ppmraw -sOutputFile=- -"
+*OrderDependency: 10 PageSetup *PocTrigger
+*FoomaticRIPOption PocTrigger: enum PS Z
 *FoomaticRIPOptionSetting ACE=On: "(%pipe%{write your bash commands here! remove the curly brackets first}) (w) file closefile"
 *DefaultACE: On
 *End
